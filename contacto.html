@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <!-- Titulo Pestaña -->
+        <title>Sweet Cream</title>
+        <!-- Icono Pestaña -->
+        <link rel="icon" type="image/png" href="img/logos/favicon-light.png">
+        <!-- Estilos Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Estilos propios -->
+        <link href="style/estilos.css" rel="stylesheet">
+        <!-- Fuentes de goole -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+        <!-- Iconos Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <!-- Boton flotante -->
+        <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle z-3">
+            <a href="#barra-navegacion" id="btn-flotante" class="btn py-2 d-flex align-items-center"><i id="icono-btn-flotante" class="bi bi-arrow-bar-up"></i></a>
+        </div>
+        <!-- Barra Navegacion -->
+        <nav id="barra-navegacion" class="navbar navbar-expand-lg color-navbar navbar-sombra">
+            <div class="container">     
+                <div class="col">
+                    <a href="index.html"><img id="logo" src="img/logos/logo.png""></a>
+                </div>
+                <div class="col-auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span id="icon-hamburguesa"><i class="bi bi-list"></i></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse offset-md-6" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="eventos.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>                                 
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <h1 class="txt-secciones">Contacto</h1>
+                        <p class="txt-parrafo"><i class="bi bi-envelope"></i> contacto@sweetcream.com</p>
+                    </div>
+                    <div class="row">
+                        <h1 class="txt-secciones">Franquicias</h1>
+                        <p class="txt-parrafo"><i class="bi bi-envelope"></i> franquicias@sweetcream.com</p>
+                    </div>
+                    <div class="row">
+                        <h1 class="txt-secciones">Sugerencias</h1>
+                        <p class="txt-parrafo"><i class="bi bi-envelope"></i> sugerencias@sweetcream.com</p>
+                    </div>
+                    <div class="contenido-escritorio">
+                        <div class="row">
+                            <h1 class="txt-secciones">Redes</h1>
+                            <div class="col-md-1">                            
+                                <a class="text-body-secondary" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook iconos-redes"></i></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconos-redes"></i></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a class="text-body-secondary" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp iconos-redes"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contenido-movil mb-5">
+                        <div class="row">
+                            <h1 class="txt-secciones">Redes</h1>
+                            <div class="col-sm-12 mt-1">
+                                <ul class="nav">
+                                    <li class="ms-1 me-1"><a class="text-body-secondary" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook iconos-redes"></i></a></li>
+                                    <li class="ms-1 me-1"><a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconos-redes"></i></a></li>
+                                    <li class="ms-1 me-1"><a class="text-body-secondary" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp iconos-redes"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-6">
+                    <p class="txt-parrafo">Escribinos y contanos tu experiencia. ¡Todo lo que nos puedas aportar nos ayuda a crecer!</p>
+                    <div class="mb-3">
+                        <label for="Input-Nombre" class="form-label txt-parrafo text-bordo-form">Nombre</label>
+                        <input type="text" class="form-control txt-parrafo" id="Input-Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input-Email" class="form-label txt-parrafo text-bordo-form">Email</label>
+                        <input type="email" class="form-control txt-parrafo" id="Input-Email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input-Textarea" class="form-label txt-parrafo text-bordo-form">Comentario</label>
+                        <textarea class="form-control txt-parrafo" id="Input-Textarea" rows="3" placeholder="Mensaje..."></textarea>
+                    </div>
+                    <!-- Boton modal Email -->
+                    <button type="button" class="btn btn-bordo" data-bs-toggle="modal" data-bs-target="#ModalEmail">Enviar <i class="bi bi-send"></i></button>     
+                </div>
+            </div> 
+        </div>
+        <!-- Sucursales -->
+        <div class="fondo-bordo mt-5">
+			<div class="container pb-5">
+				<h1 class="text-center txt-rosa-claro txt-fontweight-700 txt-monserrat pt-2">Sucursales</h1>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3400.4938283535807!2d-68.5255027!3d-31.53
+							80594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140281b059031%3A0xbdafc7e302f74c9a!2sPlaza%2025%20de%20Mayo!5e
+							0!3m2!1ses-419!2sar!4v1703255379762!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" 
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<div class="card-body">
+								<h5 class="card-title txt-bordo txt-monserrat txt-fontweight-700">Sucursal Capital</h5>
+								<p class="card-text txt-monserrat">Mitre 31 Este, Capital, San Juan</p>
+							</div>
+							<div class="card-footer text-center card-footer-color">
+								<small class="text-body-secondary txt-monserrat txt-fontweight-700"><i class="bi bi-whatsapp iconos-sucursales"></i> 264-4255601</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1701.0508767430654!2d-68.533052266733
+							97!3d-31.49388682350433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141fb099681bb%3A0x7bf3e556e8c73120!2sPlaza
+							%20Departamental%20De%20Chimbas!5e0!3m2!1ses-419!2sar!4v1703255469058!5m2!1ses-419!2sar" style="border:0;" 
+							allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<div class="card-body">
+								<h5 class="card-title txt-bordo txt-monserrat txt-fontweight-700">Sucursal Chimbas</h5>
+							<p class="card-text txt-monserrat">Remedios de Escalada de San Martín Oeste 912, Chimbas, San Juan</p>
+							</div>
+							<div class="card-footer text-center card-footer-color">
+								<small class="text-body-secondary txt-monserrat txt-fontweight-700"><i class="bi bi-whatsapp iconos-sucursales"></i> 264-4255602</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2858.110143261441!2d-68.54341954317147!3
+							d-31.58220357547243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96813ff183d3357d%3A0x7797d20e375f7980!2sPlaza%20Ce
+							ntenario!5e0!3m2!1ses-419!2sar!4v1703255622459!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" 
+							loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<div class="card-body">
+								<h5 class="card-title txt-bordo txt-monserrat txt-fontweight-700">Sucursal Rawson</h5>
+								<p class="card-text txt-monserrat">Blvd. Sarmiento Oeste 513, Villa Krause, San Juan</p>
+							</div>
+							<div class="card-footer text-center card-footer-color">
+								<small class="text-body-secondary txt-monserrat txt-fontweight-700"><i class="bi bi-whatsapp iconos-sucursales"></i> 264-4255603</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- Modal Email -->
+        <div class="modal fade" id="ModalEmail" tabindex="-1" aria-labelledby="ModalEmailLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalEmailLabel">¡Mensaje Enviado!</h1>
+                        <a class="btn-close-modal" href="" type="button" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></a>
+                    </div>
+                    <div class="modal-body">
+                        <p class="txt-parrafo">
+                            Tu mensaje fue enviado correctamente. En breve, nos comunicaremos con vos ¡Muchas gracias!
+                        </p>
+                        <div class="text-center">
+                            <i id="icono-check" class="bi bi-patch-check"></i>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Escritorio -->
+        <div class="contenido-escritorio">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-1 col-sm-12">
+                            <img id="logo-footer" src="img/logos/logo-footer.png" alt="">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <span class="mb-3 mb-md-0 text-body-secondary txt-parrafo">&copy; 2024 Sweet Cream. Todos los derechos reservados.</span>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="nav justify-content-end list-unstyled">
+                                <li class="ms-3"><a class="text-body-secondary" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook iconos-redes"></i></a></li>
+                                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconos-redes"></i></a></li>
+                                <li class="ms-3"><a class="text-body-secondary" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp iconos-redes"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Footer Movil -->
+        <div class="contenido-movil">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-12 text-center">
+                            <img id="logo-footer" src="img/logos/logo-footer.png" alt="">
+                        </div>
+                        <div class="col-sm-12 text-center mt-3">
+                            <span class="mb-3 mb-md-0 text-body-secondary txt-parrafo">&copy; 2024 Sweet Cream. Todos los derechos reservados.</span>
+                        </div>
+                        <div class="col-sm-12 mt-3">
+                            <ul class="nav justify-content-center list-unstyled">
+                                <li class="ms-3"><a class="text-body-secondary" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook iconos-redes"></i></a></li>
+                                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconos-redes"></i></a></li>
+                                <li class="ms-3"><a class="text-body-secondary" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp iconos-redes"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Script de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Script para modificar el color del icono segun el color del tema del navegador -->
+        <script>
+            // Detectar el esquema de color preferido del usuario
+            if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+              // Esquema de color oscuro
+              document.querySelector("link[rel='icon']").href = "img/logos/favicon-dark.png";
+            } else {
+              // Esquema de color claro
+              document.querySelector("link[rel='icon']").href = "img/logos/favicon-light.png";
+            }
+        </script>
+    </body>
+</html>

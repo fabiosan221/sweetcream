@@ -1,0 +1,485 @@
+/* Paleta Colores 
+    #EDC0BB rosa claro
+    #D4748D rosa oscuro
+    #F1EFE4 beige
+    #9d4b4b bordo
+*/
+
+/* Fuentes
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', sans-serif;
+*/
+
+/* --------------------------------------------Barra de navegación-------------------------------------------- */
+a.active{
+    color: #EDC0BB!important;
+    border-bottom: 4px solid #EDC0BB;
+}
+
+.color-navbar{
+    background-color: #9d4b4b;
+}
+
+.color-navbar a{
+    color: #F1EFE4 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+
+.color-navbar a:hover{
+    color: #EDC0BB!important;
+    border-bottom: none;
+}
+/* --------------------------------------------Barra de navegación-------------------------------------------- */
+
+/* --------------------------------------------Boton flotante-------------------------------------------- */
+#btn-flotante {
+    --bs-btn-bg: #D4748D;
+    --bs-btn-border-color: #D4748D;
+    --bs-btn-color: #F1EFE4;
+    --bs-btn-hover-bg: #F1EFE4;
+    --bs-btn-hover-color: #9d4b4b;    
+    --bs-btn-hover-border-color: #D4748D;
+}
+
+#icono-btn-flotante{
+    font-size: 1.5rem;
+}
+/* --------------------------------------------Boton flotante-------------------------------------------- */
+
+/*-------------------------------------------- Parallax --------------------------------------------*/
+#banner1{
+    background-image: linear-gradient(rgba(157,75,75,0.5), rgba(157,75,75,0.5)), url(../img/nosotros/nosotros1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 350px;
+}
+
+#banner2{
+    background-image: linear-gradient(rgba(157,75,75,0.5), rgba(157,75,75,0.5)), url(../img/nosotros/nosotros2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 350px;
+}
+
+#banner3{
+    background-image: linear-gradient(rgba(157,75,75,0.5), rgba(157,75,75,0.5)), url(../img/nosotros/nosotros3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 350px;
+}
+/*-------------------------------------------- Parallax --------------------------------------------*/
+
+/* --------------------------------------------Tarjetas productos-------------------------------------------- */
+.card-footer-color{
+    background-color: #EDC0BB;
+}
+
+.card-header-color{
+    background-color: #fff;
+    border-bottom: 2px solid #9d4b4b;
+}
+
+.card-producto{
+    border: 2px solid #9d4b4b;
+    /* box-shadow: 0px 1px 8px 0px rgba(212,116,141,1);*/ /*rosa oscuro*/
+    /* box-shadow: 0px 1px 8px 0px rgba(237,192,187,1);*/ /*rosa claro*/
+    /* box-shadow: 0px 1px 8px 0px rgba(241,239,228,1);*/ /*beige*/
+    box-shadow: 0px 1px 8px 0px rgba(157,75,75,1);    
+    /* box-shadow: 0px 1px 8px 1px rgba(145,143,145,1); Negro */
+}
+
+.card-producto-movil{
+    border: none;
+}
+
+.img-producto-movil{
+    box-shadow: 0px 0px 15px 0px rgba(157,75,75,1);    
+}
+/* --------------------------------------------Tarjetas productos-------------------------------------------- */
+
+/* --------------------------------------------Degrade Productos-------------------------------------------- */
+.degrade-beige{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(241,239,228,1) 60%, rgba(241,239,228,1) 80%, rgba(241,239,228,1) 100%);
+    border-radius: 0px 50px 50px 0px;
+}
+
+.degrade-bordo{
+    background: linear-gradient(to right, rgba(157,75,75,1) 0%, rgba(157,75,75,1) 20%, rgba(157,75,75,1) 40%, rgba(255,255,255,1) 100%);
+    border-radius: 50px 0px 0px 50px;
+}
+
+.degrade-rosa-claro{
+    background: linear-gradient(to right, rgba(237,192,187,1) 0%, rgba(237,192,187,1) 20%, rgba(237,192,187,1) 40%, rgba(255,255,255,1) 100%);
+    border-radius: 50px 0px 0px 50px;
+}
+
+.degrade-rosa-oscuro{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(212,116,141,1) 60%, rgba(212,116,141,1) 80%, rgba(212,116,141,1) 100%);
+    border-radius: 0px 50px 50px 0px;
+}
+/* --------------------------------------------Degrade Productos-------------------------------------------- */
+
+.contenido-movil{
+    display: none;
+}
+
+.efecto-zoom{
+    transition: ease-out 1s;
+}
+
+.efecto-zoom:hover{
+    transform: scale(1.05);
+    transition: ease-out 1s;
+}
+
+.etiqueta-bordo{
+    background-color: #9d4b4b;
+    color: #F1EFE4;
+}
+
+.etiqueta-blanca{
+    background-color: #fff;
+    color: #fff;
+}
+
+/* --------------------------------------------Fotos eventos-------------------------------------------- */
+#evento1{
+    background-image: url(../img/eventos/evento1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 20px 0px 0px;
+    height: 600px;
+}
+
+#evento2{
+    background-image: url(../img/eventos/evento2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    height: 600px;
+}
+
+#evento3{
+    background-image: url(../img/eventos/evento3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    height: 600px;
+}
+
+.row-evento{
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+/* --------------------------------------------Fotos eventos-------------------------------------------- */
+
+.nav-link:hover{
+    border-bottom: 4px solid #EDC0BB;
+}
+
+.navbar-sombra{
+    box-shadow: 0px 4px 5px 0px rgba(212,116,141,0.75);
+}
+/* --------------------------------------------Barra de navegación-------------------------------------------- */
+
+/* --------------------------------------------Barra de desplazamiento-------------------------------------------- */
+body::-webkit-scrollbar {
+    width: 12px;               /* ancho de toda la barra de desplazamiento */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #F1EFE4;        /* color del área de seguimiento */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #9d4b4b;    /* color del pulgar de desplazamiento */
+    border-radius: 20px;            /* redondez del pulgar de desplazamiento */
+    border: 3px solid #F1EFE4;    /* crea relleno alrededor del pulgar de desplazamiento */
+}
+/* --------------------------------------------Barra de desplazamiento--------------------------------------------  */
+
+#banner-sweetcream{
+    background-color: #EDC0BB;
+}
+
+.btn-bordo{
+    --bs-btn-color: #F1EFE4;
+    --bs-btn-bg: #9d4b4b;
+    --bs-btn-border-color: #9d4b4b;
+    --bs-btn-hover-color: #9d4b4b;
+    --bs-btn-hover-bg: #fff;
+    font-family: 'Montserrat', sans-serif;;  
+}
+
+.btn-bordo:hover{
+    background-color: #EDC0BB;
+    border: 1px solid #EDC0BB;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #EDC0BB;
+}
+
+.fondo-beige{
+    background-color: #F1EFE4;
+}
+
+.fondo-bordo{
+    background-color: #9d4b4b;
+}
+
+.fondo-rosa-claro{
+    background-color: #EDC0BB;
+}
+
+.fondo-rosa-oscuro{
+    background-color: #D4748D;
+}
+
+footer{
+    background-color: #EDC0BB;
+}
+
+/* --------------------------------------------Formularios--------------------------------------------  */
+.form-control {
+    background-color: #fff !important;
+    border: 2px solid #9d4b4b !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #9d4b4b;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(212,116,141,.25);
+}
+/* --------------------------------------------Formularios--------------------------------------------  */
+#icono-check{
+    font-size: 5rem;
+    color: #9d4b4b;
+}
+
+#icon-hamburguesa{
+    color: #EDC0BB;
+    font-size: 2rem;
+}
+
+.iconos-redes:hover{
+    color: #D4748D;
+}
+
+.iconos-redes{
+    font-size: 2rem;
+    color: #9d4b4b;
+}
+
+.iconos-slider{
+    font-size: 3rem;
+    color: #9d4b4b;
+}
+
+.iconos-slider-movil{
+    font-size: 3rem;
+    color: #D4748D;
+}
+
+.iconos-sucursales{
+    font-size: 1.5rem;
+    color: #9d4b4b;
+}
+
+.img-inicio-border{
+    box-shadow: 0px 10px 3px 0px rgba(237,192,187,1);
+    border-radius: 5%;   
+}
+
+#logo{
+    max-width: 200%;
+}
+
+#logo-footer{
+    max-width: 70%;
+}
+
+/* --------------------------------------------Modal--------------------------------------------  */
+.btn-close-modal{
+    color: #F1EFE4;
+}
+
+.img-modal{
+    max-width: 90%;
+}
+
+.modal-header{
+    background-color: #9d4b4b;
+    border-bottom: var(--bs-modal-header-border-width) solid #9d4b4b;
+    color: #F1EFE4;
+}
+/* --------------------------------------------Modal--------------------------------------------  */
+
+/* --------------------------------------------Icono hamburguesa--------------------------------------------  */
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: 2px solid #EDC0BB;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+/* --------------------------------------------Icono hamburguesa--------------------------------------------  */
+
+.sombra-derecha{
+    box-shadow: 10px 10px 3px 3px rgba(237,192,187,1);
+    border-radius: 5%;
+
+}
+
+.sombra-izquierda{
+    box-shadow: -10px 10px 3px 3px rgba(237,192,187,1);
+    border-radius: 5%;
+}
+
+.txt-beige{
+    color: #F1EFE4;
+}
+
+.txt-bordo{
+    color: #9d4b4b;    
+}
+
+.text-bordo-form{
+    color: #9d4b4b;
+    font-weight: 600;
+}
+
+.txt-fontweight-700{
+    font-weight: 700;
+}
+
+.txt-fontweight-900{
+    font-weight: 900;
+}
+
+.txt-lobster{
+    font-family: 'Lobster', sans-serif;
+}
+
+.txt-monserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt-rosa-claro{
+    color: #EDC0BB;    
+}
+
+.txt-rosa-oscuro{
+    color: #D4748D;    
+}
+
+.txt-parrafo{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt-parrafo-sabor{
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+}
+
+.txt-secciones{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #9d4b4b;
+}
+
+.txt-slider{
+    background-color: rgba(157,75,75, 0.75);
+    color: #EDC0BB !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.txt-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #9d4b4b;
+}
+
+/* --------------------------------------------Media Querys--------------------------------------------*/
+/* "sm" applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    a.active{
+        color: #EDC0BB!important;     
+    }
+
+    .contenido-escritorio{
+        display: none;
+    }
+
+    .contenido-movil{
+        display: block;
+    }
+
+    #logo {
+        max-width: 40%;
+    }
+
+    #logo-footer {
+        max-width: 20%;
+    }
+
+    .img-productos{
+        max-width: 20%;
+    }
+
+    .img-modal{
+        vertical-align: baseline; 
+        text-align: center !important;
+    }
+}
+
+/* "md" applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* "lg" applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* "xl" applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* "xxl" applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
+/* --------------------------------------------Media Querys--------------------------------------------*/
